@@ -37,7 +37,7 @@ class GameLinkParser(HTMLParser):
 
 
 def extract(content):
-    match = re.search(r"^## Games\\s*$", content, re.M)
+    match = re.search(r"^## Games\s*$", content, re.M)
     if match is None:
         raise ValueError("Missing exact Games heading")
     remainder = content[match.end():]
