@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "source": "README.md#games",
+  "status_scope": "links extracted only; destination health and licenses not verified",
+  "projects": [
+    {
+      "name": "Coin-Run",
+      "url": "https://github.com/openai/coinrun",
+      "status": "not-verified"
+    },
+    {
+      "name": "Gym Retro",
+      "url": "https://github.com/openai/retro",
+      "status": "not-verified"
+    },
+    {
+      "name": "Holodeck",
+      "url": "https://holodeck.cs.byu.edu/",
+      "status": "not-verified"
+    },
+    {
+      "name": "MarLÖ : Reinforcement Learning + Minecraft",
+      "url": "https://github.com/crowdAI/marLo",
+      "status": "not-verified"
+    },
+    {
+      "name": "Minecraft",
+      "url": "https://github.com/minerllabs/minerl",
+      "status": "not-verified"
+    },
+    {
+      "name": "PHYRE",
+      "url": "https://phyre.ai/",
+      "status": "not-verified"
+    },
+    {
+      "name": "Soccer Simulator",
+      "url": "https://github.com/google-research/football",
+      "status": "not-verified"
+    },
+    {
+      "name": "StarCraft 2",
+      "url": "https://github.com/deepmind/pysc2",
+      "status": "not-verified"
+    },
+    {
+      "name": "SuperMario",
+      "url": "https://github.com/ppaquette/gym-super-mario",
+      "status": "not-verified"
+    },
+    {
+      "name": "TorchCraft",
+      "url": "https://github.com/TorchCraft/TorchCraft",
+      "status": "not-verified"
+    },
+    {
+      "name": "VizDoom",
+      "url": "https://github.com/mwydmuch/ViZDoom",
+      "status": "not-verified"
+    }
+  ]
+}

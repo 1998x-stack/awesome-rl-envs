@@ -1278,3 +1278,14 @@ Environments are listed alphabetically.
 The list is not comprehensive, so please let us know if there is any environment that is missing, miscategorized, or needs a different description or image. Please submit an issue or open a pull request.
 
 
+
+## P3 · Games-only reference export (2026-11-09)
+
+The original RL directory contains many non-game research environments. A dedicated, dependency-free exporter now records **only the 11 links in the source's `## Games` section** in [`data/game-links.json`](data/game-links.json). The unit tests enforce that robotics/multi-agent sections are not accidentally included and reject duplicate, empty or non-HTTPS destinations.
+
+```bash
+python scripts/export_game_links.py --check
+python -m unittest discover -s tests -v
+```
+
+**Important:** the JSON records `status: not-verified` for every link. The CI checks *faithfulness to the static source*, **not** live website health, maintainer activity, license, ROM rights or reproducibility. The 11 links remain references inside this collection; they are **not** 11 new playable games in the Games Atlas 35-project count.
